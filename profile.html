@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="./Assets/logo HK.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+    <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="Assets/css/mdb.min.css" rel="stylesheet">
+
+    
+    <style>
+        html,
+        body,
+        header,
+        .view {
+            height: 100%;
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .view {
+                height: 1000px;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .view {
+                height: 600px;
+            }
+        }
+
+        .top-nav-collapse {
+            background-color: #202126 !important;
+        }
+
+        .navbar:not(.top-nav-collapse) {
+            background: transparent !important;
+        }
+
+        @media (max-width: 991px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #202126 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar wow animated fadeInDown"
+        data-wow-delay="0.3s" style="background-color: #202126;">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">
+                <img src="./Assets/logo HK.png" class="rounded-circle" style="width: 40px;" alt="">
+                Hikigami
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+                aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CV</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Other</a>
+                        <div class="dropdown-menu dropdown-dark" style="background-color: #202126;"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item text-white" href="#">Portofolio</a>
+                            <a class="dropdown-item text-white" href="#">Gallery</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-target="#modal" data-toggle="modal">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center shadow-lg wow animated fadeInDown" data-wow-delay="0.3s"
+        style="background-image: url('./Assets/bg2.png'); background-size: 100%;">
+        <img src="./Assets/PhotoGrid_1580954836339.jpg" class="rounded-circle mt-5 wow fadeInDown" data-wow-delay="0.3s"
+            style="width: 270px;">
+
+        <div class="text-right mr-5 mt-5 wow fadeInRight" data-wow-delay="0.3s">
+
+            <a href="mailto: ahyani64@gmail.com" class="ml-5">
+                <img src="./Assets/281769.png" style="width: 40px;" alt="">
+            </a>
+            <a href="https://web.facebook.com/hikigami.kazumi/" class="ml-4">
+                <img src="./Assets/facebook-logo-2019-1597680-1350125.webp" style="width: 40px;" alt="">
+            </a>
+            <a href="https://www.instagram.com/ahyanitantowi/" class="ml-4">
+                <img src="./Assets/768px-Instagram_icon.png" style="width: 40px;" alt="">
+            </a>
+            <a href="https://twitter.com/ahyani64" class="ml-4">
+                <img src="./Assets/download.png" class="rounded-circle" style="width: 40px;" alt="">
+            </a>
+            <a href="https://www.fiverr.com/users/hikigamikazumi/" class="ml-4">
+                <img src="./Assets/fiverr-512.webp" style="width: 40px;" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="container wow animated fadeInUp" data-wow-delay="0.3s" style="margin-top: -60px;">
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <img src="./Assets/logo HK.png" class="img-fluid rounded-circle" alt="">
+                    </div>
+                    <div class="col-8">
+                        <h1 class="font-weight-light">Tentang Saya</h1>
+                        <br>
+                        <p>
+                            Saya adalah seorang Photographer, Video Maker, dan Designer <br>
+                            Walaupun jurusan saya Ilmu Komputer Kompetensi Rekayasa Perangkat Lunak <br>
+                            Saya dapat menggabungkan kedua skill tersebut dalam Jurusan ini
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn-outline-dark btn-rounded btn-block waves-effect" style="margin-top: 50px;" data-target="#modal"
+                            data-toggle="modal">
+                            Call Us
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <h5 class="text-center">Bio Data</h5>
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <table class="table table-bordered table-sm">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th>Information</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="">Name</td>
+                                    <td>Ahmad Ahyani Tantowi</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Born</td>
+                                    <td>Mataram, 25 April 1999</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Address</td>
+                                    <td>Medica Farma street number 7, South Batu Ringgit</td>
+                                </tr>
+                                <tr>
+                                    <td class="">City</td>
+                                    <td>Mataram</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Postal Code</td>
+                                    <td>83115</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Region</td>
+                                    <td>Indonesia</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-4">
+                        <p class="lead text-center">
+                            Personal Data
+                        </p>
+                    </div>
+
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <table class="table table-bordered table-sm">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th>Mastery</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td>Java</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td>Visual Studio</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td>Python</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">4</td>
+                                    <td>After Effect</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">5</td>
+                                    <td>Premiere Pro</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">6</td>
+                                    <td>Photoshop</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">7</td>
+                                    <td>Illustrator</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">8</td>
+                                    <td>XD</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-4">
+                        <p class="lead text-center">
+                            Mastery of Applications
+                        </p>
+                    </div>
+
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <table class="table table-bordered table-sm">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th>Skill</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td>Programming</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td>Web Development</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td>Photography</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">4</td>
+                                    <td>Editing</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">5</td>
+                                    <td>Video Maker</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">6</td>
+                                    <td>Design</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">7</td>
+                                    <td>Visual Effect</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">8</td>
+                                    <td>Motion Graphics</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-4">
+                        <p class="lead text-center">
+                            Skill
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact</h5>
+                </div>
+                <div class="modal-body">
+                    <blockquote class="blockquote">
+                        <p class="mb-0 text-center">
+                            Number Phone: 081917290907 <br>
+                            Email: ahyani64@gmail.com <br>
+                            Facebook: Ahyani Tantowi <br>
+                            Instagram: @ahyanitantowi <br>
+                        </p>
+                        <br>
+                        <footer class="blockquote-footer text-center">Make your moment more creative
+                            <br> <cite title="Source Title">Hikigami Kazumi</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+
+<script type="text/javascript" src="Assets/js/jquery-3.4.1.min.js"></script>
+
+
+<script type="text/javascript" src="Assets/js/popper.min.js"></script>
+
+
+<script type="text/javascript" src="Assets/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="Assets/js/mdb.min.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+
+</html>
