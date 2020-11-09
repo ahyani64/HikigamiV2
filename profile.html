@@ -13,7 +13,7 @@
 
     <link href="Assets/css/mdb.min.css" rel="stylesheet">
 
-    
+
     <style>
         html,
         body,
@@ -62,7 +62,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar wow animated fadeInDown"
         data-wow-delay="0.3s" style="background-color: #202126;">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand wow animated fadeInDown" data-wow-delay="1s" href="index.html">
                 <img src="./Assets/logo HK.png" class="rounded-circle" style="width: 40px;" alt="">
                 Hikigami
             </a>
@@ -71,7 +71,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto wow animated fadeInDown" data-wow-delay="1.5s">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
@@ -105,7 +105,7 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid text-center shadow-lg wow animated fadeInDown" data-wow-delay="0.3s"
-        style="background-image: url('./Assets/bg2.png'); background-size: 100%;">
+        style="background-image: url('./Assets/bg2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
         <img src="./Assets/PhotoGrid_1580954836339.jpg" class="rounded-circle mt-5 wow fadeInDown" data-wow-delay="0.3s"
             style="width: 270px;">
 
@@ -138,7 +138,7 @@
                         <img src="./Assets/logo HK.png" class="img-fluid rounded-circle" alt="">
                     </div>
                     <div class="col-8">
-                        <h1 class="font-weight-light">Tentang Saya</h1>
+                        <h1 class="h1-responsive font-weight-light">Tentang Saya</h1>
                         <br>
                         <p>
                             Saya adalah seorang Photographer, Video Maker, dan Designer <br>
@@ -147,14 +147,14 @@
                         </p>
                     </div>
                     <div class="col-2">
-                        <button class="btn btn-outline-dark btn-rounded btn-block waves-effect" style="margin-top: 50px;" data-target="#modal"
-                            data-toggle="modal">
+                        <button class="btn btn-outline-dark btn-rounded btn-block waves-effect"
+                            style="margin-top: 50px;" data-target="#modal" data-toggle="modal">
                             Call Us
                         </button>
                     </div>
                 </div>
                 <hr>
-                <h5 class="text-center">Bio Data</h5>
+                <h5 class="text-center">Biodata</h5>
                 <div class="row align-items-center">
                     <div class="col-8">
                         <table class="table table-bordered table-sm">
@@ -309,6 +309,7 @@
 
     </div>
 
+
     <div class="modal fade" id="modal">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -329,8 +330,7 @@
                     </blockquote>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"
-                        data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
